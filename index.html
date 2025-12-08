@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>봉사 소감문</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>봉사 소감문</h1>
+            <p class="description">따뜻한 마음을 남겨주세요.</p>
+
+            <form action="/submit" method="POST">
+                <label for="name">성함</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="홍길동"
+                    required
+                />
+
+                <label for="content">느낀 점</label>
+                <textarea
+                    id="content"
+                    name="content"
+                    placeholder="봉사를 하며 느낀 점을 자유롭게 적어주세요."
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button type="submit">제출하기</button>
+            </form>
+        </div>
+    </body>
+</html>
