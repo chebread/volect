@@ -62,6 +62,6 @@ sudo swapon /swapfile
 ```
 
 ## License
-Copyright &copy; 2025 Cha Haneum
+Copyright &copy; 2025-2026 Cha Haneum
 
 This project is licensed under the MIT License.
